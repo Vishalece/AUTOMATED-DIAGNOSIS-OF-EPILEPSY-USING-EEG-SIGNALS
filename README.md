@@ -21,8 +21,64 @@ In this project we have used different machine learning models which **increses 
 ![image](https://user-images.githubusercontent.com/90272634/230718814-9bd28e3b-3ae1-4bf0-9641-39a7c7fc4dd5.png)
 
 ![image](https://user-images.githubusercontent.com/90272634/230719024-aa1635f7-2f7e-4399-a209-fcd05cf43b06.png)
-Epilepsy detection model is executed on Intel DevCloud.And Intel Extension for Scikit-Learn is enabled.
+
+![image](https://user-images.githubusercontent.com/90272634/230719485-320a776f-ef17-49a0-abc4-b27ffb9d1937.png)
+
+![image](https://user-images.githubusercontent.com/90272634/230719213-00ca137d-9769-4909-bc90-be4df1498f73.png)
+
+Epilepsy detection model is executed on Intel DevCloud where the model is optimised by oneDNN .And Intel Extension for Scikit-Learn is enabled.The AI Analytics Toolkit is used to install and optimize all the libraries which are present in the project.
+
 Intel DevCloud Link:https://jupyter.oneapi.devcloud.intel.com/user/u190596/lab/workspaces/auto-e/tree/1DCNN.ipynb
+
+# Time Elapsed
+
+![image](https://user-images.githubusercontent.com/90272634/230719941-3633f251-a2b7-4174-9ce7-7d96af44a945.png)
+
+Time taken for the project to execute all the machine learning models without oneAPI in google colab :0.8689255714416504 sec
+
+![image](https://user-images.githubusercontent.com/90272634/230720064-be221a2f-fe41-439e-b5c4-44464bf3e720.png)
+
+Time taken for the project to execute all the machine learning models with oneAPI in oneapi environment:0.15295076370239258 sec
+
+Hence, we observe a difference of 0.715974808 seconds which is obtained with the help of oneAPI libraries.
+
+# Results and discussion
+
+After Traning and testing of different models we got more accuracy for the 1D CNN model with accuracy of 99.00% for given data.Whereas the  SVM ,GaussianNB, LogisticRegression, BernoulliNB,KNeighborsClassifier,DecisionTreeClassifier,RandomForestClassifier and XGBRFClassifierperformed with an acuracy of 80.8%,71.2%,81.6%,76.0%,82.39%,80.8%,83.2% and 88.8% The oneAPI reduced the overall runtime and GPU usage significantly compared to normal platforms.
+All the models haven been optimised and execution time have been reduced by using Intel oneAPI.
+
+### ✅Graphs
+
+![image](https://user-images.githubusercontent.com/90272634/230721127-d1a88f5d-c564-4152-8494-c6dbbf762407.png)
+
+Accuracy of the model is increasing in both testing and training as number of epoch increases.
+
+![image](https://user-images.githubusercontent.com/90272634/230721219-350cf204-1c03-4925-887e-27334327c11a.png)
+
+model loss is decreasing in both testing and training as number of epoch increases.
+
+![image](https://user-images.githubusercontent.com/90272634/230721300-41e47a5f-ef63-40e4-93a6-cbff3a90232b.png)
+
+Confusion matrix , f1 score of 1D CNN optimised by the Intel oneAPI.
+
+![image](https://user-images.githubusercontent.com/90272634/230721486-73195fbb-2c67-45e0-86a1-adc7f9f48fe7.png)
+
+![image](https://user-images.githubusercontent.com/90272634/230721718-a13a8de8-465f-4b02-ae04-ba9253838453.png)
+
+Accuracy and Confusion matrix of different models optimised by oneAPI tool box.
+
+# 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
