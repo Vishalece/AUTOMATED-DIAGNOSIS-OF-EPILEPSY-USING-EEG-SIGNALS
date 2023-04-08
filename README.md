@@ -78,7 +78,7 @@ Accuracy and Confusion matrix of different models optimised by oneAPI tool box.
 # PROJECT VISUALIZATION USING WEBAPP
 ![Screenshot (377)](https://user-images.githubusercontent.com/110721429/230741086-da22d9ca-3a10-4f57-8c2f-3abdf99fa1bf.png)
 
-(https://drive.google.com/file/d/1cxti4d01uxlF6fqGymEDRFfOt6xrvVra/view?usp=share_link)
+(Demo: https://drive.google.com/file/d/1cxti4d01uxlF6fqGymEDRFfOt6xrvVra/view?usp=share_link)
 
 For the given dataset the machine learning algorithms are applied and evaluation metrics such as confusion matrix, accuracy, precision, recall, f1-score are displayed in a web application using StreamLit package.
 
