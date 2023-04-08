@@ -66,7 +66,7 @@ Confusion matrix , f1 score of 1D CNN optimised by the Intel oneAPI.
 
 Accuracy and Confusion matrix of different models optimised by oneAPI tool box.
 
-# HOW TO RUN THIS PROJECT
+# HOW TO RUN THIS PROJECT ![image](https://user-images.githubusercontent.com/90272634/230730418-d000dbc9-febc-4be2-9ad3-ad2821f56404.png)
 
 ### ✅STEP 1: Download the models,datasheets and matlab codes from the resource.
 ### ✅STEP 2: Clone the GitHub repositort.
@@ -74,6 +74,27 @@ Accuracy and Confusion matrix of different models optimised by oneAPI tool box.
 ### ✅STEP 3: Store all the extracted features into a simgle .csv file.
 ### ✅STEP 4: Create a new Conda environment and install the required libraries through the Intel channel.
 ### ✅STEP 5: Execute the code in Intel oneAPI cloud platform so that execution time and GPU will be usage significantly reduced.
+
+# What I learned ![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
+
+![image](https://user-images.githubusercontent.com/72274851/220130227-3c48e87b-3e68-4f1c-b0e4-8e3ad9a4805a.png)
+
+✅Building application using intel oneAPI:Intel oneAPI is a suite of development tools for creating software that can run on a variety of platforms..Scikit-learn (sklearn) is a popular Python library for machine learning, but it may not be optimized for Intel hardware by default.By integrating oneAPI into scikit-learn deployment of code into hardware will become more compatable.
+
+✅Building a  Epilepsy detection application involves a significant amount of research and development. During the process, I likely learned a number of things, including: 
+
+✅Machine Learning: I likely learned about different machine learning algorithms and how they can be applied to predict epilepsy by extracting the features.
+
+✅Data Analysis: I likely gained experience in collecting and analyzing large amounts of data, including EEG signal data, to train our machine learning models.
+
+✅Collaboration: Building a project like this likely required collaboration with a team of experts in various fields, such as VLSI, machine learning,deep learning and data analysis, and I likely learned the importance of working together to achieve common goals.
+
+These are just a few examples of the knowledge and skills that i likely gained while building this project. 
+
+Overall, building a epilepsy detecting device is a challenging and rewarding experience that requires both hardwarw and software knowledge on VLSI,IoT,machine learning and deep learning.This is my step to complete this challenging project by building a model for detection of epilepsy and we are in plan of deploying this codel in fpga with help of oneAPI and make an SoC(System on Chip) to make this prototype as wearable device.
+
+
+
 
 
 
