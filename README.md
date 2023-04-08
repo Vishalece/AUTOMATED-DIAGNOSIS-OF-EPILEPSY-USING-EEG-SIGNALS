@@ -67,7 +67,17 @@ Confusion matrix , f1 score of 1D CNN optimised by the Intel oneAPI.
 
 Accuracy and Confusion matrix of different models optimised by oneAPI tool box.
 
-# 
+# HOW TO RUN THIS PROJECT
+
+### ✅STEP 1: Download the models,datasheets and matlab codes from the resource.
+### ✅STEP 2: Clone the GitHub repositort.
+### ✅STEP 2: Import datasheet into matlab and run the code for extracting features,Which are used in machine learning model training and testing.
+### ✅STEP 3: Store all the extracted features into a simgle .csv file.
+### ✅STEP 4: Create a new Conda environment and install the required libraries through the Intel channel.
+### ✅STEP 5: Execute the code in Intel oneAPI cloud platform so that execution time and GPU will be usage significantly reduced.
+
+
+
 
 
 
