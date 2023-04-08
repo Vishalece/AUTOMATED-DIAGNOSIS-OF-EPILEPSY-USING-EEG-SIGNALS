@@ -76,7 +76,7 @@ Accuracy and Confusion matrix of different models optimised by oneAPI tool box.
 ### ✅STEP 5: Execute the code in Intel oneAPI cloud platform so that execution time and GPU will be usage significantly reduced.
 
 # PROJECT VISUALIZATION USING WEBAPP
-<iframe width="560" height="315" src="https://drive.google.com/file/d/1cxti4d01uxlF6fqGymEDRFfOt6xrvVra/preview" frameborder="0" allowfullscreen></iframe>
+![Screenshot (377)](https://user-images.githubusercontent.com/110721429/230741086-da22d9ca-3a10-4f57-8c2f-3abdf99fa1bf.png)
 
 (https://drive.google.com/file/d/1cxti4d01uxlF6fqGymEDRFfOt6xrvVra/view?usp=share_link)
 
