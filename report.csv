@@ -1,0 +1,5 @@
+﻿,SVM,KNN,Logistic Regression,GaussianNB,BernoulliNB,Decision Tree,Random Forest,XGBoost
+Accuracy,0.808,0.824,0.816,0.712,0.76,0.808,0.872,0.872
+Precision,0.827,0.834,0.834,0.77,0.794,0.823,0.875,0.874
+Recall,0.821,0.842,0.828,0.744,0.779,0.824,0.895,0.894
+F1-Score,0.823,0.837,0.83,0.732,0.778,0.819,0.883,0.883
