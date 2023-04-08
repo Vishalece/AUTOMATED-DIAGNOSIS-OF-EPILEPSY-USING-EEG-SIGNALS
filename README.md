@@ -75,6 +75,9 @@ Accuracy and Confusion matrix of different models optimised by oneAPI tool box.
 ### ✅STEP 4: Create a new Conda environment and install the required libraries through the Intel channel.
 ### ✅STEP 5: Execute the code in Intel oneAPI cloud platform so that execution time and GPU will be usage significantly reduced.
 
+# PROJECT VISUALIZATION USING WEBAPP
+For the given dataset the machine learning algorithms are applied and evaluation metrics such as confusion matrix, accuracy, precision, recall, f1-score are displayed in a web application using StreamLit package.
+
 # What I learned ![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
 
 ![image](https://user-images.githubusercontent.com/72274851/220130227-3c48e87b-3e68-4f1c-b0e4-8e3ad9a4805a.png)
